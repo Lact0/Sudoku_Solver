@@ -7,7 +7,6 @@ function load() {
   canvas.height = height;
   document.onkeydown = keyPress;
   mainBoard = new Board();
-  //setBoard();
   mainBoard.draw();
 }
 
